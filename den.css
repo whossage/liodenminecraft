@@ -1,0 +1,70 @@
+/* BACKGROUND IMAGE */
+
+body {
+  background: url("https://i.imgur.com/gSXUdlI.jpeg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* idk something */
+
+.col-md-9.col-xs-12 {
+  background: rgba(255, 137, 175, 0.25) !important;
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.25); 
+  padding: 10px;
+  border: none !important;
+}
+
+/* BIG CONTAINER AKA BIG BOX BEHIND ALL LAYERS */
+
+div.container.main {
+  background: rgba(255, 137, 175, 0.53) !important;
+  border-radius: 20px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.2); 
+  padding: 15px;
+  border: none !important;
+}
+
+/* MENU BAR ABOVE */
+
+.navbar {
+  background: rgba(255, 137, 175, 0.36) !important; 
+  border: none !important;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.25); 
+  font-family: 'Century Gothic', sans-serif;
+}
+
+/* text inside of menu bar */
+
+.navbar li a {
+  color: #ff96b8 !important;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* the little bar below the menu bar */
+
+.navbar li a:hover {
+  background: rgba(255, 137, 175, 0.55) !important; 
+  color: #3E1F22 !important;
+  border-radius: 8px;
+}
+
+/* ? idk either */
+
+.breadcrumb {
+  background: rgba(255, 137, 175, 0.55) !important;
+  color: #5A2A38 !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  border-radius: 8px;
+}
+
+/* the bar at the very top */
+
+.feature {
+  background: rgba(255, 144, 255, 0.45) !important;
+  color: #5A2A38 !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  border-radius: 10px;
+}
+
