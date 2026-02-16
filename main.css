@@ -1,0 +1,101 @@
+body {
+  background: url("https://imgur.com/a/JswvfOY") no-repeat center center fixed;
+  background-size: cover;
+  color: #5A2A38; 
+}
+
+.col-md-9.col-xs-12 {
+  background: rgba(255, 192, 203, 0.6) !important; 
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgba(255, 182, 193, 0.25);
+  padding: 10px;
+  border: none !important;
+}
+
+div.container.main {
+  background: rgba(255, 182, 193, 0.55) !important;
+  border-radius: 20px;
+  box-shadow: 0 0 12px rgba(255, 182, 193, 0.2);
+  padding: 15px;
+  border: none !important;
+}
+
+.navbar {
+  background: rgba(255, 182, 193, 0.7) !important; 
+  border: none !important;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(255, 182, 193, 0.25);
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.navbar li a {
+  color: #d45f85 !important; 
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.navbar li a:hover {
+  background: rgba(255, 150, 180, 0.7) !important;
+  color: #3E1F22 !important;
+  border-radius: 8px;
+}
+
+
+.breadcrumb {
+  background: rgba(255, 182, 193, 0.6) !important;
+  color: #5A2A38 !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  border-radius: 8px;
+}
+
+.feature {
+  background: rgba(255, 192, 203, 0.55) !important;
+  color: #5A2A38 !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  border-radius: 10px;
+}
+
+
+.sidebar, .panel {
+  background: rgba(255, 182, 193, 0.55) !important;
+  color: #5A2A38 !important;
+  border: none !important;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 182, 193, 0.15);
+}
+
+
+.topbar {
+  background: rgba(255, 182, 193, 0.7) !important;
+  color: #3E1F22 !important;
+  border-top: none !important;
+  border-bottom: 3px solid rgba(255, 182, 193, 0.3) !important;
+  border-radius: 0 0 12px 12px;
+}
+
+
+input[type="submit"],
+input[type="button"],
+button,
+.button {
+  background: rgba(255, 192, 203, 0.8) !important;
+  color: #5A2A38 !important;
+  border: 1px solid rgba(255, 150, 180, 0.9) !important;
+  border-radius: 6px !important;
+  padding: 6px 12px !important;
+  font-weight: bold !important;
+  transition: 0.2s ease-in-out !important;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.button:hover {
+  background: rgba(255, 175, 200, 0.9) !important;
+  cursor: pointer !important;
+  color: #3E1F22 !important;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: rgba(183, 109, 132, 1) !important; 
+}
