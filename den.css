@@ -68,3 +68,32 @@ div.container.main {
   border-radius: 10px;
 }
 
+/* the main box on the right side */
+
+.topbar {
+  background: rgba(255, 167, 246, 0.65) !important;
+  color: #3E1F22 !important;
+  border-top: none !important;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3) !important;
+  border-radius: 0 0 12px 12px;
+}
+
+/* idk ? */
+
+.sidebar {
+  background: rgba(255, 167, 246, 0.47) !important;
+  color: #5A2A38 !important;
+  border: none !important;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
+}
+
+/* the boxes inside of the main right box */
+
+.panel {
+  background: rgba(219, 120, 255, 0.7) !important;
+  border: none !important;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+}
+
